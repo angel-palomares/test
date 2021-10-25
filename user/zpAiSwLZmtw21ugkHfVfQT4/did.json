@@ -1,0 +1,36 @@
+{
+  "assertionMethod" : [
+        "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4"
+    ],
+    "authentication" : [
+        "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4"
+    ],
+    "capabilityDelegation" : [
+        "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4"
+    ],
+    "capabilityInvocation" : [
+        "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4"
+    ],
+    "authentication" : [
+        "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4#606be4f984ac475f83c882f37dfc1932"
+    ],
+    "@context" : [
+        "https://www.w3.org/ns/did/v1"
+    ],
+    "id" : "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4",
+    "verificationMethod" : [
+        {
+            "controller" : "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4",
+            "id" : "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4#606be4f984ac475f83c882f37dfc1932",
+            "publicKeyJwk" : {
+                "alg" : "EdDSA",
+                "crv" : "Ed25519",
+                "kid" : "606be4f984ac475f83c882f37dfc1932",
+                "kty" : "OKP",
+                "use" : "sig",
+                "x" : "H8p7zEtAPc9u1A_GxYIGj1pn78SROR8RVtdYMyMWJ6Q"
+            },
+            "type" : "Ed25519VerificationKey2018"
+        }
+    ]
+}
