@@ -1,26 +1,26 @@
 {
   "assertionMethod" : [
-        "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4"
+        "did:web:github.com:angel-palomares:test:user:zpAiSwLZmtw21ugkHfVfQT4"
     ],
     "authentication" : [
-        "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4"
+        "did:web:github.com:angel-palomares:test:user:zpAiSwLZmtw21ugkHfVfQT4"
     ],
     "capabilityDelegation" : [
-        "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4"
+        "did:web:github.com:angel-palomares:test:user:zpAiSwLZmtw21ugkHfVfQT4"
     ],
     "capabilityInvocation" : [
-        "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4"
+        "did:web:github.com:angel-palomares:test:user:zpAiSwLZmtw21ugkHfVfQT4"
     ],
     "authentication" : [
-        "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4#606be4f984ac475f83c882f37dfc1932"
+        "did:web:github.com:angel-palomares:test:user:zpAiSwLZmtw21ugkHfVfQT4#606be4f984ac475f83c882f37dfc1932"
     ],
     "@context" : [
         "https://www.w3.org/ns/did/v1"
     ],
-    "id" : "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4",
+    "id" : "did:web:github.com:angel-palomares:test:user:zpAiSwLZmtw21ugkHfVfQT4",
     "verificationMethod" : [
         {
-            "controller" : "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4",
+            "controller" : "did:web:github.com:angel-palomares:test:user:zpAiSwLZmtw21ugkHfVfQT4",
             "id" : "did:web:kraken.eu:user:zpAiSwLZmtw21ugkHfVfQT4#606be4f984ac475f83c882f37dfc1932",
             "publicKeyJwk" : {
                 "alg" : "EdDSA",
