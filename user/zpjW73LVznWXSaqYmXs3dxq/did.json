@@ -1,0 +1,24 @@
+{
+    "authentication" : [
+        "did:web:raw.githubusercontent.com:angel-palomares:test:master:user:zpjW73LVznWXSaqYmXs3dxq#b582c23de59b44139d05c00a1f5adc98"
+    ],
+    "@context" : [
+        "https://www.w3.org/ns/did/v1"
+    ],
+    "id" : "did:web:raw.githubusercontent.com:angel-palomares:test:master:user:zpjW73LVznWXSaqYmXs3dxq",
+    "verificationMethod" : [
+        {
+            "controller" : "did:web:raw.githubusercontent.com:angel-palomares:test:master:user:zpjW73LVznWXSaqYmXs3dxq",
+            "id" : "did:web:raw.githubusercontent.com:angel-palomares:test:master:user:zpjW73LVznWXSaqYmXs3dxq#b582c23de59b44139d05c00a1f5adc98",
+            "publicKeyJwk" : {
+                "alg" : "EdDSA",
+                "crv" : "Ed25519",
+                "kid" : "b582c23de59b44139d05c00a1f5adc98",
+                "kty" : "OKP",
+                "use" : "sig",
+                "x" : "2UhqxK_FnBL0Ts7BoiHwSPMAyz35dNbtAaK-B5iZBsE"
+            },
+            "type" : "Ed25519VerificationKey2018"
+        }
+    ]
+}
