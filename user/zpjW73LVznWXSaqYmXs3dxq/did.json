@@ -24,7 +24,8 @@
     "service": [
     {
       "id": "#github",
-      "type": "did-communication"
+      "type": "did-communication",
+        "serviceEndpoint": "http://mock-issuer-adapter.com:10010"
     }
   ]
 }
