@@ -21,11 +21,5 @@
             "type" : "Ed25519VerificationKey2018"
         }
     ],
-    "service": [
-    {
-      "id": "#github",
-      "type": "did-communication",
-        "serviceEndpoint": "http://mock-issuer-adapter.com:10010"
-    }
-  ]
+    "service": []
 }
