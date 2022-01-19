@@ -20,5 +20,11 @@
             },
             "type" : "Ed25519VerificationKey2018"
         }
-    ]
+    ],
+    "service": [
+    {
+      "id": "#github",
+      "serviceEndpoint": "https://raw.githubusercontent.com"
+    }
+  ]
 }
