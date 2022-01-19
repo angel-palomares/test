@@ -24,7 +24,8 @@
     "service": [
     {
       "id": "#github",
-      "serviceEndpoint": "https://raw.githubusercontent.com"
+      "serviceEndpoint": "https://raw.githubusercontent.com",
+      "type": "did-communication"
     }
   ]
 }
