@@ -1,0 +1,29 @@
+#
+# Copyright Atos Research and Innovation All Rights Reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+version: '3.9'
+
+services:
+
+
+
+  file-server: # file server for hosting static resources (e.g. JSON-LD contexts)
+      container_name: file-server
+      image: halverneus/static-file-server:latest
+      environment:
+        - PORT=9099
+        - FOLDER=/data
+      ports:
+        - "9099:9099"
+      volumes:
+        - ./user:/data
+      networks:
+  
+
+
+networks:
+  net:
+    name: agent-rest_bdd_net
+    driver: bridge
